@@ -13,8 +13,8 @@ permissions:
   contents: read
 
 jobs:
-  build:
-
+  job1-build:
+    name: build job from python template
     runs-on: ubuntu-latest
 
     steps:
